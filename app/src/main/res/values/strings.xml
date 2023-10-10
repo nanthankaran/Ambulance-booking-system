@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Ambulance</string>
+    <string name="err_email">Enter the Valid email id</string>
+    <string name="password">Capitapl and small letter symbol number</string>
+    <string name="err_password_confirmation">reenter the correct password</string>
+</resources>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    >
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="155dp"
+        android:src="@drawable/ambulance_logo_wel"
+        android:scaleType="centerCrop"
+        android:layout_marginTop="25dp"
+        android:textStyle="bold|italic"
+        android:textSize="25sp"
+        />
+
+    <TextView
+        android:id="@+id/userdashboard"
+        android:layout_marginTop="30dp"
+        android:layout_below="@id/logo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hospital DashBoard"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:padding="10dp"
+        android:textColor="@color/black"
+        />
+
+    <Button
+        android:id="@+id/btnView"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="View"
+        android:layout_marginLeft="125dp"
+        android:textAllCaps="false"
+        android:layout_below="@id/userdashboard"
+        android:backgroundTint="@android:color/holo_blue_dark"
+        android:textSize="25dp"
+        android:layout_marginTop="50dp"
+        android:textStyle="bold|italic"
+        />
+
+    <Button
+        android:id="@+id/btnlogout"
+        android:layout_marginLeft="125dp"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="LogOut"
+        android:textAllCaps="false"
+        android:layout_below="@id/btnView"
+        android:backgroundTint="@android:color/holo_blue_dark"
+        android:textSize="25dp"
+        android:layout_marginTop="100dp"
+        android:textStyle="bold|italic"
+        />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/home_page_2"
+        android:gravity="left"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="320dp"
+
+        />
+
+
+</RelativeLayout>

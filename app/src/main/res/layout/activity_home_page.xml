@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".HomePageActivity">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="150dp"
+        android:src="@drawable/ambulance_logo_wel"
+        android:scaleType="centerCrop"
+        android:layout_marginTop="25dp"
+        />
+
+    <TextView
+        android:id="@+id/home"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/logo"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Ambulance Booking"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/home2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/home"
+        android:layout_marginTop="-10dp"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="System"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnUser"
+        android:layout_marginLeft="125dp"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="User"
+        android:textAllCaps="false"
+        android:backgroundTint="@android:color/holo_blue_dark"
+        android:textSize="25dp"
+        android:layout_below="@id/home"
+        android:layout_marginTop="100dp"
+        android:textStyle="bold|italic"
+        />
+
+    <Button
+        android:id="@+id/btndriver"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Driver"
+        android:layout_marginLeft="125dp"
+        android:textAllCaps="false"
+        android:layout_below="@id/btnUser"
+        android:backgroundTint="@android:color/holo_blue_dark"
+        android:textSize="25dp"
+        android:layout_marginTop="50dp"
+        android:textStyle="bold|italic"
+        />
+
+    <Button
+        android:id="@+id/btnhospital"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Hospital"
+        android:layout_marginLeft="125dp"
+        android:textAllCaps="false"
+        android:layout_below="@id/btndriver"
+        android:backgroundTint="@android:color/holo_blue_dark"
+        android:textSize="21dp"
+        android:layout_marginTop="50dp"
+        android:textStyle="bold|italic"
+        />
+
+    <Button
+        android:id="@+id/btnmap"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnhospital"
+        android:layout_marginLeft="125dp"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="@android:color/holo_blue_dark"
+        android:text="Map"
+        android:textAllCaps="false"
+        android:textSize="25dp"
+        android:textStyle="bold|italic" />
+
+
+
+
+
+</RelativeLayout>
